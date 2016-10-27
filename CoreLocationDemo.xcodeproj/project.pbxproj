@@ -96,7 +96,13 @@
 				TargetAttributes = {
 					7CFF90431DBE5B70006C0A01 = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GVDGLD972H;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -260,7 +266,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVDGLD972H;
 				INFOPLIST_FILE = CoreLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yury.CoreLocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +280,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GVDGLD972H;
 				INFOPLIST_FILE = CoreLocationDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yury.CoreLocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
